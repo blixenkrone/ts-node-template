@@ -1,0 +1,26 @@
+{
+  "name": "node-ts-api",
+  "version": "1.0.0",
+  "description": "API built in Node with Typescript",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon ./dist/app.js",
+    "dev": "ts-node ./src/app.ts",
+    "prod": "npm run build && npm run start"
+  },
+  "author": "simon blixenkrone",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "jshint": "^2.9.6"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.1"
+  }
+}
